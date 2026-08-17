@@ -1,0 +1,6 @@
+name: wlekus_chat
+version: '1.0-SNAPSHOT'
+
+main: org.example.wleku.wlekus_chat.Wlekus_chat
+api-version: '26.2'
+load: POSTWORLD
