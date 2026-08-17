@@ -3,4 +3,5 @@ version: '${version}'
 
 main: org.example.wleku.wlekus_chat.Wlekus_chat
 api-version: '26.2'
+author: "wleku"
 load: POSTWORLD

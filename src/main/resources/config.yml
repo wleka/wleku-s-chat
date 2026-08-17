@@ -1,0 +1,24 @@
+## wleku's chat config plugin
+## Original author by wleku.
+
+## Format chat event
+format: "§7%player% §8> §f%message%"
+
+welcomeEvent: true
+welcomeMessage: ""
+
+## Quit message replacement
+quitReplace: true
+quitMessage: "§c[-] %player% leaved from server"
+
+## Join message replacement
+joinReplace: true
+joinMessage: "§a[+] %player% joined to server"
+
+## :loc: event
+locEvent : true
+locFormat: "[ %X%, %Y%, %Z% ]"
+
+## Ping players
+pingEvent : true
+pingFormat: "[ %X%, %Y%, %Z% ]"
