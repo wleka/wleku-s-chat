@@ -28,5 +28,4 @@ secondColor: "§4"
 thirdColor: "§5"
 
 ## Ping players
-## pingEvent: true
-## pingFormat: "[ %X%, %Y%, %Z% ]"
+pingEvent: true
