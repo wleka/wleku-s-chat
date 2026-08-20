@@ -11,6 +11,12 @@ ___
 - Can change join/quit messages or disable him.
 - Change format chat
 ___
+## How compile project?
+You need clone this repository from github, or download this repository.
+Later you need open this repository, from Intellij Idea.
+If you opened that repostiry, write `./gradlew clean shadowJar` 
+or click to `build plugin.bat`
+___
 ## Config.yml
 ```
 ## wleku's chat config plugin
