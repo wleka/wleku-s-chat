@@ -27,5 +27,8 @@ firstColor: "§a"
 secondColor: "§4"
 thirdColor: "§5"
 
+## Banword config
+replaceMessage: "§4[Condemn]§r"
+
 ## Ping players
 pingEvent: true

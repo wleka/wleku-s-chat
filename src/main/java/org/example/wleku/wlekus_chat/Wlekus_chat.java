@@ -8,7 +8,7 @@ import org.example.wleku.wlekus_chat.JoinQuitReplace.JoinEvent;
 import org.example.wleku.wlekus_chat.JoinQuitReplace.QuitEvent;
 import org.example.wleku.wlekus_chat.OtherEvents.ChatEvents;
 import org.example.wleku.wlekus_chat.OtherEvents.LocateEvent;
-import org.example.wleku.wlekus_chat.OtherEvents.banwordEvent;
+import org.example.wleku.wlekus_chat.OtherEvents.banwordsEvent;
 
 import java.io.File;
 import java.io.IOException;
@@ -50,8 +50,8 @@ public final class Wlekus_chat extends JavaPlugin {
         }
 
         Bukkit.getPluginManager().registerEvents(new ChatEvents(), this);
+        Bukkit.getPluginManager().registerEvents(new banwordsEvent(this), this);
         Bukkit.getPluginManager().registerEvents(new LocateEvent(this), this);
-        Bukkit.getPluginManager().registerEvents(new banwordEvent(), this);
 
         Bukkit.getPluginManager().registerEvents(new JoinEvent(this), this);
         Bukkit.getPluginManager().registerEvents(new QuitEvent(this), this);
