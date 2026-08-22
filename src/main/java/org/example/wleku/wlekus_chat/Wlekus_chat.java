@@ -35,7 +35,7 @@ public final class Wlekus_chat extends JavaPlugin {
             dataFolder.mkdir();
         }
 
-        config.put("banwords", "nigga");
+        config.put("banwords", "pepega");
 
         try {
             File outputFile = new File(dataFolder, "banwords.yml");
