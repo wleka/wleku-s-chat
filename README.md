@@ -37,10 +37,20 @@ joinReplace: true
 joinMessage: "§a[+] %player% joined to server"
 
 ## :loc: event
-locEvent : true
-locFormat: "[ %X%, %Y%, %Z% ]"
+locEvent: true
+locFormat: "[ %posX%,  %posY%,  %posZ% ]"
+
+firstWorld: "world"
+secondWorld: "world_nether"
+thirdWorld: "world_the_end"
+
+firstColor: "§a"
+secondColor: "§4"
+thirdColor: "§5"
+
+## Banword config
+replaceMessage: "§4[Condemn]§r"
 
 ## Ping players
-pingEvent : true
-pingFormat: "[ %X%, %Y%, %Z% ]"
+pingEvent: true
 ```
