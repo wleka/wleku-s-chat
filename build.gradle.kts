@@ -20,6 +20,8 @@ dependencies {
 
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.2")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.18.2")
+    compileOnly("net.luckperms:api:5.4")
+
 }
 
 tasks {
