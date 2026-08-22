@@ -15,8 +15,10 @@ class playerPingEvent(private var plugin: Wlekus_chat) : Listener {
 
         if (plugin.config.getBoolean("pingEvent") == true) {
             for (player in Bukkit.getOnlinePlayers()) {
-                event.message =
-                    message.replace("${player.name}", "${plugin.config.getString("pingColor")}${player.name}§r")
+                if (message.contains(player.name)) {
+                    event.message =
+                        message.replace("${player.name}", "${plugin.config.getString("pingColor")}${player.name}§r")
+                }
             }
         }
     }
