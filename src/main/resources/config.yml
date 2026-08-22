@@ -32,3 +32,4 @@ replaceMessage: "§4[Condemn]§r"
 
 ## Ping players
 pingEvent: true
+pingColor: "§e"
